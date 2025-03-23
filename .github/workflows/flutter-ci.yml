@@ -27,7 +27,7 @@ jobs:
         run: flutter build apk --release
 
       - name: Upload APK as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@f65c6f0ed25c734189d1de9b6dded6e8200f39bb
         with:
           name: motivator_app-release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
